@@ -1,6 +1,6 @@
 {
   "name": "@randajan/esbuild-plugin-image-size",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An ESBuild plugin that processes images, extracts their dimensions (width, height), and generates importable objects with file paths, supporting flexible filtering with entries.",
   "repository": "randajan/esbuild-plugin-image-size",
   "type": "module",
