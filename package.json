@@ -1,0 +1,50 @@
+{
+  "name": "@randajan/esbuild-plugin-image-size",
+  "version": "1.0.0",
+  "description": "An ESBuild plugin that processes images, extracts their dimensions (width, height), and generates importable objects with file paths, supporting flexible filtering with entries.",
+  "repository": "randajan/esbuild-plugin-image-size",
+  "type": "module",
+  "main": "dist/cjs/index.cjs",
+  "module": "dist/esm/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.mjs",
+      "require": "./dist/cjs/index.cjs"
+    }
+  },
+  "license": "MIT",
+  "peerDependencies": {},
+  "devDependencies": {
+    "@randajan/simple-lib": "^3.0.2"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "fetch",
+    "json",
+    "http",
+    "api",
+    "network",
+    "request",
+    "rest",
+    "ajax",
+    "wrapper",
+    "error-handling"
+  ],
+  "homepage": "https://github.com/randajan/esbuild-plugin-image-size",
+  "bugs": {
+    "url": "https://github.com/randajan/esbuild-plugin-image-size/issues"
+  },
+  "author": {
+    "name": "Jan Randa",
+    "email": "jnranda@gmail.com",
+    "url": "https://www.linkedin.com/in/randajan/"
+  },
+  "dependencies": {
+    "image-size": "^2.0.1",
+    "micromatch": "^4.0.8"
+  }
+}
