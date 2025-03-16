@@ -33,8 +33,8 @@ export const imageSizePlugin = ({
                 }
 
                 // Zkopírujeme obrázek do dist/assets
-                await fs.mkdir(outdir, { recursive: true });
-                await fs.copyFile(filePath, outputFile);
+                fs.mkdirSync(outdir, { recursive: true });
+                fs.copyFileSync(filePath, outputFile);
 
                 const src = path.posix.join("/"+outputDir, fileName);
                 const exp = { src, width, height, aspectRatio:width/height};
